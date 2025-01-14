@@ -1,0 +1,70 @@
+		/* Challenge #1 (Named Selector) */
+
+		h3 {
+			color: red;
+		}
+
+		/* Challenge #2 (Class Selector) */
+		p.intro {
+			color: green;
+		}
+
+		/* Challenge #3 (ID Selector) */
+		section#requirements {
+			color: orange;
+		}
+
+		/* Challenge #4 (Contextual Selector) */
+		nav h3 {
+			color: pink;
+		}
+
+		/* Challenge #5 (Pseudo-Element Selector) */
+		p::first-line{
+			font-weight: bold;
+		}
+
+		/* Challenge #6 (Attribute Selector) */
+		a[title] {
+			background-color: yellow;
+		}
+
+		/* Challenge #7 (Grouped Selector) */
+		h1, h2 {
+			color: purple;
+		}
+
+		/* Challenge #8 (Direct Descendent Selector) */
+		body > section {
+			border: 2px solid black
+		}
+			
+		/* Challenge #9 (Structural Pseudo-Class Selector) */
+
+		section p:first-of-type {
+			text-transform: uppercase;
+		}
+
+		/* Challenge #10 (Structural Pseudo-Class Selector) */
+		p:nth-of-type(3n) {
+			background-color: lightblue;
+		}
+
+		/* Challenge #11 (Structural Pseudo-Class Selector) */
+		section p:last-of-type {
+			border-bottom: 5px solid hotpink;
+		}
+
+		/* Challenge #12 (Adjacent Sibling Selector) */
+
+		h3 + p {
+			border-top: 5px dashed limegreen;
+		}
+
+		/* Challenge #13 (Attribute Selector) */
+		abbr[title="Cascading Style Sheets"] {
+			background-color: black;
+			color: white;
+		}
+
+	
